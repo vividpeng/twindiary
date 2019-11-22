@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>쌍태아 일기</title>
+    <!-- Place your kit's code here; fontawesome.com -->
+    <script
+      src="https://kit.fontawesome.com/470c920057.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>우리 쌍둥이 일기장</h1>
+      <div class="status">
+        <div class="status_date">년/월/일 (요일)</div>
+        <div class="status_clock">시:분:초</div>
+      </div>
+    </header>
+    <main class="babies">
+      <img src="img/baby.jpg" alt="" class="main_image" />
+      <div class="birth">
+        <span class="birth_day">태어나기까지 앞으로</span>
+        <span class="birth_day" id="d_day">D-day</span>
+        <span class="birth_day">남았어요!</span>
+        <div class="birth_criteria">기준: 37주</div>
+      </div>
+      <div class="preg">
+        <span class="preg_day">임신 몇 주?</span>
+      </div>
+      <div class="diary">
+        <a href="album.html">
+          <i class="fas fa-baby"></i>
+          <span class="diary_babies">아기 일기장</span>
+        </a>
+        <a href="mom.html">
+          <i class="fas fa-female"></i>
+          <span class="diary_babies">엄마 일기장</span>
+        </a>
+      </div>
+    </main>
+    <script src="clock.js"></script>
+    <script src="babyclock.js"></script>
+    <script src="birthclock.js"></script>
+  </body>
+</html>
